@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2? family=Poppins:wght@200&family=Roboto:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+/*mobile first*/
+body{
+    background-color:#59a8e7 ;
+}
+
+li{
+   font-style: oblique;
+   font-family:'Roboto', sans-serif;
+
+}
+.fondo{
+    width: 1400px;
+    height: 900px;
+}
+header{
+    background-color: white;
+    width: 1400px;
+    height: 80px;
+}
+ul li{
+    list-style-type: none;
+    display: inline-block;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.sobre{
+    border-style: double;
+    color: blanchedalmond;
+    padding: 10px;
+    margin-right: 100px;
+    margin-top: 100px;
+    margin-left: 100px;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 400px;
+
+}
+.marketing{
+    width: 880px;
+    height: 700px;
+}
+
+.servicio{
+    width: 880px;
+    height: 700px;
+}
+.plan{
+    margin-top: 100px;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+    border-radius: 3cm;
+    border: 10px double violet;
+
+}
+
+footer{
+  padding: 30px;
+  margin-bottom: 0;
+  background-color: white;
+}
+.icono{
+position: fixed;
+ top: 150px;
+}
+/*declaro las areas de mi grilla*/
+header{
+    grid-area: header;
+}
+nav{
+    grid-area: nav;
+
+}
+footer{
+    grid-area: footer;
+}
+.nosotros{
+    grid-area: sobre;
+}
+.paq{
+    gap: paq;
+}
+.nosotros{
+    margin-top:40px;
+    margin-right:40px;
+    margin-left: 100px; ;
+    display: grid;
+    grid-template-columns: 300px ;
+    grid-template-rows: 40px 100px 2s00vh 50vh;
+}
+.paq{
+    margin-top: 50px;
+    margin-right: 100px;
+    margin-left: 100;
+    grid-template-columns:  300px 100px;
+    grid-template-rows: 300px;
+}

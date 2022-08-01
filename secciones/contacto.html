@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacto</title>
+    <link rel="stylesheet" href="../estilos/style.css">
+</head>
+
+<body>
+    <main>
+        <header>
+            <!--encabezado-->
+
+            <nav>
+                <ul>
+                    <!--enlaces relativos-->
+                    <li>
+                        <a href="../index.html">Inicio</a>
+                    </li>
+                    <li>
+                        <a href="./sobre Nosotros.html">Sobre Nosotros</a>
+                    </li>
+                    <li>
+                        <a href="./servicios.html">Servicios</a>
+                    </li>
+                    <li>
+                        <a href="./paquetes.html">Paquetes</a>
+                    </li>
+                    <li>
+                        <a href="./contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <img class="marketing" src="../img/contacto.jpg" alt="contacto">
+
+        <section>
+            <form>
+                <label for="nombre_apellido">Nombre y Apellido:</label>
+                <input type="text" name="nombre_apellido" />
+                <br />
+                <label for="Observaciones"> Observaciones:</label><br />
+                <textarea placeholder="Observaciones"></textarea>
+                <br />
+
+                <label for="email"> Ingresa tu email: </label>
+                <input type="email" placeholder="aaa@gmail.com" name="email" /><br />
+
+                <label form="telefono"> Ingresa Telefono:</label> <br />
+                <input type="number" phone="telefono" /> <br />
+
+                <p>Elegí forma de contacto:</p>
+                <div>
+                    Whatsapp
+                    <input type="radio" name="whatsapp" value="whatsapp" />
+                </div>
+                <div>
+                    Email
+                    <input type="radio" name="email" value="email" />
+                </div>
+                <div>
+                    Telefono
+                    <input type="radio" name="telefono" value="telefono" />
+                </div>
+
+                <p>Te gusto la información?</p>
+                <select name="letra" id="letra">
+                    <option value="si/no">Si/No</option>
+                    <option value="si">Si</option>
+                    <option value="no">No</option>
+                </select>
+                <div>
+                    Queres recibir info sobre nosotros?
+                    <input type="checkbox" name="acepta" value="1" />
+                </div>
+                <input type="submit" value="Enviar" />
+                <input type="reset" value="Borrar" />
+            </form>
+        </section>
+
+
+        <footer>
+            <!--pie de pagina-->
+            <h1>Tel:</h1>
+            <h1>Email:</h1>
+        </footer>
+    </main>
+</body>
+
+</html>
